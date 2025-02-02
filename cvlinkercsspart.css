@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #a0aebb;
+}
+
+.container {
+
+    background-color: rgb(214, 214, 231);
+    max-width: 1200px;
+    margin: 0 auto;
+    /* 0=top&bottom 0 and left r8 joto toko lage */
+}
+
+header {
+
+    font-weight: bold;
+    /* Styles for the header */
+
+}
+
+.profile-pic {
+    width: 100px;
+    height: 1SSS20px;
+    padding: 3px;
+    border: 2px solid rgb(179, 147, 147);
+    border-radius: 50%;
+    /* charpASER ar border ar jonno */
+    float: left;
+    /*property is used to position an element to the left side of its container, allowing inline content (like text or other elements) to flow around it.*/
+}
+
+.bioheader {
+    float: left;
+    padding: 20px;
+    color: rgb(20, 155, 155);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.contract-bio {
+    margin-top: 3%;
+    float: right;
+}
+
+.contract-bio a {
+
+    padding: 20px;
+    color: rgb(0, 124, 124);
+    font-weight: bold;
+}
+
+.contract-bio a:hover {
+    color: red;
+
+}
+
+.div-clear {
+    clear: both;
+}
+
+.hr-design {
+    border: solid black 2px;
+    bottom: none;
+    margin: 0%;
+
+
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+    color: rgb(95, 187, 187);
+    font-weight: bold;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+    color: rgb(16, 138, 160);
+
+    font-weight: bold
+}
+
+.common-hr {
+    border: solid black 1px;
+}
+
+.center-edudiv {
+    float: left;
+    width: 45%;
+
+}
+
+.right-edudiv {
+    float: right;
+    width: 45%;
+
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer:hover a {
+    color: red;
+}
